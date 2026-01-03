@@ -206,16 +206,9 @@ int main() {
         cout << "\nEnter Your Choice: ";
         cin >> choice;
 
-        switch (choice) {
-        case 1: c.addCustomer(); break;
-        case 2: c.viewCustomers(); break;
-        case 3: c.searchCustomer(); break;
-        case 4: c.updateCustomer(); break;
-        case 5: c.deleteCustomer(); break;
-        case 6: cout << "\nExiting Program...\n"; break;
-        default: cout << "\nInvalid Choice!\n";
-        }
+        
     } while (choice != 6);
 
     return 0;
 }
+
